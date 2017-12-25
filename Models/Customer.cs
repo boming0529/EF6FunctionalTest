@@ -10,6 +10,7 @@ namespace EF7TEST.Models
 {
     public class Customer
     {
+
         // Primary Key
         public int Id { get; set; }
         [DataType(DataType.EmailAddress)]
